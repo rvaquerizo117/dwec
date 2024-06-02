@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Restaurantes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="initializeApp()">
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Gestión de Restaurantes
+                </h1>
+                <h2 class="subtitle">
+                    Sistema de gestión de menús, platos y alérgenos
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#" id="home-link">
+                    Inicio
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="#">
+                        Categorías
+                    </a>
+                    <div class="navbar-dropdown" id="category-menu">
+                        <!-- categorías -->
+                    </div>
+                </div>
+                <a class="navbar-item" href="#" id="allergens-link">
+                    Alérgenos
+                </a>
+                <a class="navbar-item" href="#" id="menus-link">
+                    Menús
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="#">
+                        Restaurantes
+                    </a>
+                    <div class="navbar-dropdown" id="restaurant-menu">
+                        <!--restaurantes-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul id="breadcrumb-list">
+            <li><a href="#" id="breadcrumb-home">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <section class="section">
+        <div class="container main-content" id="main-content">
+            <!-- contenido principal -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Gestión de Restaurantes</strong> por <a href="#">Rubén VS</a>. Proyecto de ejemplo para UT05 Práctica DOM.
+            </p>
+        </div>
+    </footer>
+
+    <!-- archivos JavaScript -->
+    <script src="js/models/Coordinate.js"></script>
+    <script src="js/models/Category.js"></script>
+    <script src="js/models/Dish.js"></script>
+    <script src="js/models/Allergen.js"></script>
+    <script src="js/models/Menu.js"></script>
+    <script src="js/models/Restaurant.js"></script>
+    <script src="js/models/RestaurantsManager.js"></script>
+
+    <script src="js/controllers/CategoryController.js"></script>
+    <script src="js/controllers/DishController.js"></script>
+    <script src="js/controllers/AllergenController.js"></script>
+    <script src="js/controllers/MenuController.js"></script>
+    <script src="js/controllers/RestaurantController.js"></script>
+
+    <script src="js/views/categoryView.js"></script>
+    <script src="js/views/dishView.js"></script>
+    <script src="js/views/allergenView.js"></script>
+    <script src="js/views/menuView.js"></script>
+    <script src="js/views/restaurantView.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
