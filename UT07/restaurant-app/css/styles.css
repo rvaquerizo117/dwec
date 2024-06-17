@@ -1,0 +1,240 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";
+
+.hero.is-primary {
+    background-color: #d18e00;
+    color: #fff;
+}
+
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #007bff; 
+}
+
+.breadcrumb li.is-active a {
+    color: #000; 
+}
+
+ul.title.is-5 {
+    margin-bottom: 0.5rem;
+}
+
+h2.title.is-5, h3.title.is-5 {
+    margin: 1rem; 
+}
+
+.block:not(:last-child), .box:not(:last-child), .breadcrumb:not(:last-child), .content:not(:last-child), .level:not(:last-child), .message:not(:last-child), .notification:not(:last-child), .pagination:not(:last-child), .progress:not(:last-child), .subtitle:not(:last-child), .table-container:not(:last-child), .table:not(:last-child), .tabs:not(:last-child), .title:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.container.main-content img {
+    margin-top: 1rem; 
+}
+
+.form-container {
+    margin: 20px;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
+
+#dish-image-preview {
+    max-width: 200px;
+    display: none;
+    margin-top: 10px;
+}
+
+.message-container {
+    margin-top: 10px;
+}
+
+.is-danger .help {
+    color: red;
+}
+
+.invalid-feedback {
+    display: none;
+    color: red;
+}
+
+.is-danger ~ .invalid-feedback {
+    display: block;
+}
+
+.dish-image {
+    max-width: 800px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.button-container .button {
+    max-width: 800px; /* Align with the max-width of the image */
+    width: 100%; /* button fill the container */
+    margin: 0 0.1em; /* margin between buttons */
+    gap: 1em
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-content > * {
+    max-width: 800px; /* Limit all child elements to 800px width */
+    width: 100%; /* Make them fill the container */
+}
+
+.menu-dish-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.menu-dish-item .drag-icon {
+    margin-right: 0.5rem;
+    cursor: grab;
+}
+
+.dish-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    opacity: 0.9;
+    transition: opacity 0.5s ease, top 0.5s ease;
+}
+
+.toast.toast-success {
+    background-color: #4caf50;
+}
+
+.toast.toast-danger {
+    background-color: #f44336;
+}
+
+.toast.toast-info {
+    background-color: #2196f3;
+}
+
+.toast.fade {
+    opacity: 0;
+    top: 10px;
+}
+
+#create-category-button.button.is-primary {
+    background-color: #ffa909;
+}
+
+#manage-categories-button.button.is-primary {
+    background-color: #a3751e;
+}
+
+#create-dish-button.button.is-primary {
+    background-color: #43792b;
+}
+
+#create-restaurant-button.button.is-primary {
+    background-color: #5e9fd4;
+}
+
+#manage-menus-button.button.is-primary {
+    background-color: #404dff;
+}
+
+.cookie-banner {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.cookie-banner .btn-accept-cookies {
+    margin-right: 10px;
+}
+
+/* login */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Styles for the user area in the navbar */
+#user-area {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+
+#user-area a {
+    margin-left: 10px;
+    color: #4a4a4a;;
+    text-decoration: underline;
+}
+
+#user-area a:hover {
+    text-decoration: none;
+}
+
+#user-area a:hover {
+    text-decoration: underline; /* Subrayado en hover para enlaces */
+}
+
+/* Estilos para el menú desplegable en el área del usuario */
+#user-area .navbar-dropdown {
+    right: 0;
+    left: auto;
+}
+
+/* Asegurar que el modal, y sus hijos, tengan un z-index alto */
+.modal {
+    z-index: 1050 !important;
+}
+
+.modal-background {
+    z-index: 1040 !important;
+}
+
+.modal-card {
+    z-index: 1050 !important;
+}
