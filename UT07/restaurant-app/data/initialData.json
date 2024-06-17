@@ -1,0 +1,179 @@
+{
+  "categories": [
+    {
+      "name": "Starters",
+      "description": "Appetizers and starters",
+      "dishes": ["Pasta", "Salad", "Soup", "Sandwich"]
+    },
+    {
+      "name": "Main Course",
+      "description": "Main course dishes",
+      "dishes": ["Steak", "Burger", "Pizza", "Fish"]
+    },
+    {
+      "name": "Desserts",
+      "description": "Sweet desserts",
+      "dishes": ["Ice Cream", "Cake", "Pancakes", "Salmon"]
+    }
+  ],
+  "dishes": [
+    {
+      "name": "Pasta",
+      "description": "Italian Pasta",
+      "ingredients": ["Pasta", "Tomato"],
+      "image": "images/pasta.jpg",
+      "categories": ["Starters"],
+      "menus": ["Lunch"]
+    },
+    {
+      "name": "Salad",
+      "description": "Green Salad",
+      "ingredients": ["Lettuce", "Tomato"],
+      "image": "images/salad.jpg",
+      "categories": ["Starters"],
+      "menus": ["Lunch"]
+    },
+    {
+      "name": "Steak",
+      "description": "Grilled Steak",
+      "ingredients": ["Beef", "Salt"],
+      "image": "images/steak.jpg",
+      "categories": ["Main Course"],
+      "menus": ["Lunch"],
+      "allergens": ["Peanuts"]
+    },
+    {
+      "name": "Ice Cream",
+      "description": "Vanilla Ice Cream",
+      "ingredients": ["Milk", "Sugar"],
+      "image": "images/icecream.jpg",
+      "categories": ["Desserts"],
+      "menus": ["Dinner"],
+      "allergens": ["Peanuts", "Lactose"]
+    },
+    {
+      "name": "Soup",
+      "description": "Tomato Soup",
+      "ingredients": ["Tomato", "Basil"],
+      "image": "images/soup.jpg",
+      "categories": ["Starters"],
+      "menus": ["Dinner"]
+    },
+    {
+      "name": "Burger",
+      "description": "Beef Burger",
+      "ingredients": ["Beef", "Bun", "Lettuce"],
+      "image": "images/burger.jpg",
+      "categories": ["Main Course"],
+      "menus": ["Dinner"]
+    },
+    {
+      "name": "Cake",
+      "description": "Chocolate Cake",
+      "ingredients": ["Flour", "Sugar", "Cocoa"],
+      "image": "images/cake.jpg",
+      "categories": ["Desserts"],
+      "menus": ["Kids"],
+      "allergens": ["Gluten"]
+    },
+    {
+      "name": "Sandwich",
+      "description": "Ham Sandwich",
+      "ingredients": ["Ham", "Bread", "Cheese"],
+      "image": "images/sandwich.jpg",
+      "categories": ["Starters"],
+      "menus": ["Kids"]
+    },
+    {
+      "name": "Pizza",
+      "description": "Margherita Pizza",
+      "ingredients": ["Dough", "Tomato", "Cheese"],
+      "image": "images/pizza.jpg",
+      "categories": ["Main Course"],
+      "menus": ["Kids"]
+    },
+    {
+      "name": "Fish",
+      "description": "Grilled Fish",
+      "ingredients": ["Fish", "Lemon"],
+      "image": "images/fish.jpg",
+      "categories": ["Main Course"]
+    },
+    {
+      "name": "Pancakes",
+      "description": "Blueberry Pancakes",
+      "ingredients": ["Flour", "Milk", "Blueberries"],
+      "image": "images/pancakes.jpg",
+      "categories": ["Desserts"]
+    },
+    {
+      "name": "Salmon",
+      "description": "Baked Salmon",
+      "ingredients": ["Salmon", "Garlic"],
+      "image": "images/salmon.jpg",
+      "categories": ["Desserts"],
+      "allergens": ["Shellfish"]
+    }
+  ],
+  "allergens": [
+    {
+      "name": "Peanuts",
+      "description": "Peanut allergy"
+    },
+    {
+      "name": "Gluten",
+      "description": "Gluten allergy"
+    },
+    {
+      "name": "Lactose",
+      "description": "Lactose intolerance"
+    },
+    {
+      "name": "Shellfish",
+      "description": "Shellfish allergy"
+    }
+  ],
+  "menus": [
+    {
+      "name": "Lunch",
+      "description": "Lunch Menu",
+      "dishes": ["Pasta", "Salad", "Steak"]
+    },
+    {
+      "name": "Dinner",
+      "description": "Dinner Menu",
+      "dishes": ["Ice Cream", "Soup", "Burger"]
+    },
+    {
+      "name": "Kids",
+      "description": "Kids Menu",
+      "dishes": ["Cake", "Sandwich", "Pizza"]
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Test Restaurant 1",
+      "description": "Restaurant 1",
+      "coordinate": {
+        "latitude": 10,
+        "longitude": 10
+      }
+    },
+    {
+      "name": "Test Restaurant 2",
+      "description": "Restaurant 2",
+      "coordinate": {
+        "latitude": 20,
+        "longitude": 20
+      }
+    },
+    {
+      "name": "Test Restaurant 3",
+      "description": "Restaurant 3",
+      "coordinate": {
+        "latitude": 30,
+        "longitude": 30
+      }
+    }
+  ]
+}

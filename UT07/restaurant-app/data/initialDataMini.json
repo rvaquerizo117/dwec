@@ -1,0 +1,65 @@
+{
+    "categories": [
+      {
+        "name": "Starters",
+        "description": "Appetizers and starters"
+      },
+      {
+        "name": "Main Course",
+        "description": "Main course dishes"
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Pasta",
+        "description": "Italian Pasta",
+        "ingredients": ["Pasta", "Tomato"],
+        "image": "images/pasta.jpg"
+      },
+      {
+        "name": "Salad",
+        "description": "Green Salad",
+        "ingredients": ["Lettuce", "Tomato"],
+        "image": "images/salad.jpg"
+      }
+    ],
+    "allergens": [
+      {
+        "name": "Peanuts",
+        "description": "Peanut allergy"
+      },
+      {
+        "name": "Gluten",
+        "description": "Gluten allergy"
+      }
+    ],
+    "menus": [
+      {
+        "name": "Lunch",
+        "description": "Lunch Menu"
+      },
+      {
+        "name": "Dinner",
+        "description": "Dinner Menu"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Test Restaurant 1",
+        "description": "Restaurant 1",
+        "coordinate": {
+          "latitude": 10,
+          "longitude": 10
+        }
+      },
+      {
+        "name": "Test Restaurant 2",
+        "description": "Restaurant 2",
+        "coordinate": {
+          "latitude": 20,
+          "longitude": 20
+        }
+      }
+    ]
+  }
+  
